@@ -113,6 +113,11 @@
         <activity android:name=".activity.PictureDeleteAndPreviewActivity"/>
 
         <activity android:name=".videoHandle.SelectVideoActivity"/>
+        <!--视频播放-->
+        <activity android:name=".activity.TextureVideoActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait"
+            android:theme="@style/activity_image_core_and_sticker_style"/>
 
 
 

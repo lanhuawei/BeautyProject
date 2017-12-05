@@ -40,12 +40,12 @@
         "source": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_delete_check_press.png"
     },
     {
-        "merged": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_next_press.png",
-        "source": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_next_press.png"
-    },
-    {
         "merged": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_camera_flash_led_on_pressed.png",
         "source": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_camera_flash_led_on_pressed.png"
+    },
+    {
+        "merged": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_next_press.png",
+        "source": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_next_press.png"
     },
     {
         "merged": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_camera_switch_pressed.png",
@@ -60,11 +60,11 @@
         "source": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_camera_flash_led_on_disable.png"
     },
     {
-        "merged": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_camera_switch_normal.png",
-        "source": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_camera_switch_normal.png"
-    },
-    {
         "merged": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_next_normal.png",
         "source": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_next_normal.png"
+    },
+    {
+        "merged": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_camera_switch_normal.png",
+        "source": "F:\\BeautyProject\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_camera_switch_normal.png"
     }
 ]

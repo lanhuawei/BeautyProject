@@ -30,6 +30,7 @@ public class SelectPhoto {
     public static final int CODE_CAMERA = 21;
     public static final int CODE_PHOTO = 22;
     public static final int CODE_VIDEO = 23;
+    public static final int CODE_DELETE_VIDEO = 25;
     public static final int DELETE_IMAGE = 30;
 
     private static SelectPhoto sSelectPhoto;

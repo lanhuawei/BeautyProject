@@ -173,21 +173,48 @@ public class ConsultActivity extends BaseActivity implements AdapterView.OnItemC
 ////            SelectPhoto.getInstance(this).selectPictureStyle(this, CameraUtil.sdCardIsExist(), true);
 //        }
 
-        if (i == 0 && mVideoInfos.size() == 0 || i == mPhotoInfos.size() + 1) {
+        if (i == 0 && mVideoInfos.size() == 0) {
             verifyStoragePermissions(mContext);
         } else {
-            ArrayList<String> imageUrls = new ArrayList<>();
-            for (int j = 0; j < mPhotoInfos.size(); j++) {
-                imageUrls.add(mPhotoInfos.get(j).getPath_file());
+            if (i == mPhotoInfos.size() + 1) {
+                verifyStoragePermissions(mContext);
+            } else {
+                if (mVideoInfos.size() == 1 && i == 0) {
+                    Intent intent = new Intent(mContext, TextureVideoActivity.class);
+
+                    intent.putExtra("path", mVideoInfos.get(0).getVideo_path_file());
+//                    intent.putExtra("path", " http://weibo.xzfyy.com/videoDoctor/wzda001ziv3blx07gkSteO4801040100byZO0k01.mp4");
+                    LogUtil.e("path", String.valueOf(mVideoInfos.get(0).getVideo_path_absolute()));
+                    startActivityForResult(intent, SelectPhoto.CODE_DELETE_VIDEO);
+
+                } else {
+                    ArrayList<String> imageUrls = new ArrayList<>();
+                    for (int j = 0; j < mPhotoInfos.size(); j++) {
+                        imageUrls.add(mPhotoInfos.get(j).getPath_file());
+                    }
+//                    for (int j = 0; j < mVideoInfos.size(); j++) {
+//                        imageUrls.add(mVideoInfos.get(j).getVideo_path_file());
+//                    }
+                    Intent intent = new Intent(mContext, PictureDeleteAndPreviewActivity.class);
+                    intent.putStringArrayListExtra(PictureDeleteAndPreviewActivity.EXTRA_IMAGEURLS, imageUrls);
+                    intent.putExtra(PictureDeleteAndPreviewActivity.EXTRA_CURRENT, i);
+                    startActivityForResult(intent, SelectPhoto.DELETE_IMAGE);
+                }
+
+//                ArrayList<String> imageUrls = new ArrayList<>();
+//                for (int j = 0; j < mPhotoInfos.size(); j++) {
+//                    imageUrls.add(mPhotoInfos.get(j).getPath_file());
+//                }
+//                for (int j = 0; j < mVideoInfos.size(); j++) {
+//                    imageUrls.add(mVideoInfos.get(j).getVideo_path_file());
+//                }
+//                Intent intent = new Intent(mContext, PictureDeleteAndPreviewActivity.class);
+//                intent.putStringArrayListExtra(PictureDeleteAndPreviewActivity.EXTRA_IMAGEURLS, imageUrls);
+//                intent.putExtra(PictureDeleteAndPreviewActivity.EXTRA_CURRENT, i);
+//                startActivityForResult(intent, SelectPhoto.DELETE_IMAGE);
             }
-            for (int j = 0; j < mVideoInfos.size(); j++) {
-                imageUrls.add(mVideoInfos.get(j).getVideo_path_file());
-            }
-            Intent intent = new Intent(mContext, PictureDeleteAndPreviewActivity.class);
-            intent.putStringArrayListExtra(PictureDeleteAndPreviewActivity.EXTRA_IMAGEURLS, imageUrls);
-            intent.putExtra(PictureDeleteAndPreviewActivity.EXTRA_CURRENT, i);
-            startActivityForResult(intent, SelectPhoto.DELETE_IMAGE);
         }
+
     }
 
     public void onEventMainThread(String event) {
@@ -241,7 +268,7 @@ public class ConsultActivity extends BaseActivity implements AdapterView.OnItemC
             mGridImageAdapter.notifyDataSetChanged();
             PictureDeleteAndPreviewActivity.isChange = false;
         }
-        if (requestCode == SelectPhoto.CODE_VIDEO) {//视频
+        if (requestCode == SelectPhoto.CODE_VIDEO || requestCode == SelectPhoto.CODE_DELETE_VIDEO) {//视频
 
             mPhotoInfos.clear();
             List<PhotoInfo> photoes = SelectPhotoActivity.hasList;

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg_black">
+        <TextView
+            android:id="@+id/tv_left_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:drawableStart="@mipmap/back"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_white"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/video_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:drawableEnd="@mipmap/delete"
+            android:drawablePadding="5dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_white"
+            android:textSize="20sp"
+            />
+    <!--<TextView-->
+        <!--android:id="@+id/tv_left_back"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="5dp"-->
+        <!--android:drawableStart="@mipmap/back"-->
+        <!--android:drawablePadding="5dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:textColor="@color/text_white"-->
+        <!--android:textSize="20sp" />-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:drawableEnd="@mipmap/delete"/>-->
+
+
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+</RelativeLayout>
