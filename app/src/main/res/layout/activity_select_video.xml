@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@color/bg_white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <!--SelectVideoActivity 选择视频-->
+    <RelativeLayout
+        android:id="@+id/select_video_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/main_pink">
+        <TextView
+            android:id="@+id/video_tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:drawableStart="@mipmap/back"
+            android:text="@string/return_back"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/tv_size"
+            android:layout_marginStart="5dp"
+            />
+
+        <TextView
+            android:id="@+id/video_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/tv_size"/>
+
+        <TextView
+            android:id="@+id/video_tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:text="@string/choose_finish"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/tv_size"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/video_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_video_top"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</RelativeLayout>

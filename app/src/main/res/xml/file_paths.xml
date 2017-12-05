@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--代码适配Android N以上版本-->
+    <!--由于在Android7.0上,google使用了新的权限机制,所以导致在调用相机的时候,如果传递的URI为”file://”类型,的系统会抛出异常-->
+
+    <!--这是安装APK出现的-->
+    <!--<external-path-->
+    <!--name="files_root"-->
+    <!--path="Android/data/com.lanhuawei.beautyproject/" />-->
+    <!--<external-path-->
+    <!--name="external_storage_root"-->
+    <!--path="." />-->
+
+    <external-path
+        name="images"
+        path="/lanhuawei/Camera/" />
+
+
+</resource>

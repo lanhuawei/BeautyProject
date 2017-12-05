@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+<!--照片预览图周围红色边框的形状 adapter_photo_pre_view-->
+    <stroke
+        android:width="2dp"
+        android:color="@color/color_ff507f"/>
+    <solid android:color="@color/bg_white"/>
+</shape>

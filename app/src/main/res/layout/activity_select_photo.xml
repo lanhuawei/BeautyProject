@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@color/bg_white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <!--selectPhotoActivity 选择相册和图片的Activity-->
+    <RelativeLayout
+        android:id="@+id/select_photo_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/main_pink">
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:drawableStart="@mipmap/back"
+            android:text="@string/return_back"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/text_white"
+            android:gravity="center"
+            android:textSize="@dimen/tv_size"
+            />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/tv_size"/>
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:text="@string/choose_finish"
+            android:textSize="@dimen/tv_size"
+            android:textColor="@color/text_white"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_photo_top"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+
+</RelativeLayout>

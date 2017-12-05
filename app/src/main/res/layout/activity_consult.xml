@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/color_ebebeb"
+              android:scrollbars="none"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--圈子发新帖布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/consult_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="end|start"
+            android:background="@null"
+            android:hint="@string/question_hint"
+            android:minLines="8"
+            android:textColor="@color/bg_black"
+            android:textColorHint="@color/bg_dark_gray"
+            android:textSize="15sp"
+            android:textCursorDrawable="@drawable/color_cursor"/>
+
+
+        <com.lanhuawei.beautyproject.view.MyGridView
+            android:id="@+id/consult_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:horizontalSpacing="2dp"
+            android:verticalSpacing="2dp"
+            android:columnWidth="84dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:scrollbars="none"/>
+
+        <View
+            android:id="@+id/title_line"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/color_ebebeb"/>
+        <!--添加标签布局-->
+        <RelativeLayout
+            android:id="@+id/rl_add_lable"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_lable_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/tv_add_lable"
+                android:textColor="@color/color_666666"
+                android:textSize="15sp"/>
+            <!--标签-->
+            <TextView
+                android:id="@+id/tv_lable_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@+id/tv_lable_default"
+                android:textColor="@color/color_ff85a4"
+                android:textSize="15sp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="3dp"
+               android:src="@mipmap/icon_lable_more" />
+
+        </RelativeLayout>
+        <View
+            android:id="@+id/title_line_two"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/bg_white"/>
+
+    </LinearLayout>
+
+</ScrollView>

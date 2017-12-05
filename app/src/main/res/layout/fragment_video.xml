@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:background="@color/bg_white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--选择某个文件夹里的视频 VideoFragment-->
+
+    <GridView
+        android:id="@+id/video_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="3"
+        android:scrollbars="none">
+    </GridView>
+
+</RelativeLayout>

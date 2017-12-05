@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:gravity="center_vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <!--PhotoFolderAdapter  照片文件夹-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/image_folder_size"
+        android:layout_height="@dimen/image_folder_size"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_black"
+            android:textIsSelectable="false"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/light_gray"
+            android:textIsSelectable="false"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,372 @@
+<resources>
+    <string name="app_name">BeautyProject</string>
+
+
+    <string name="redraw">还原</string>
+    <string name="no_sdCard">无SD卡，请插入SD卡后再试</string>
+    <string name="tab_consult">咨询</string>
+    <string name="tab_message">消息</string>
+    <string name="quit_app">再按一次退出应用</string>
+    <string name="no_more_data">没有更多数据</string>
+    <string name="share">分享</string>
+    <string name="face_value_detect">颜值检测</string>
+    <string name="share_title">东方虹颜值测试</string>
+    <string name="share_content_weibo">（由@东方虹APP 计算颜值）</string>
+    <string name="share_content_common">这颜值身价%1$s，你也来测测？</string>
+    <string name="share_describe">你的颜值%1$s分，打败了全国%2$s的用户。你适合的职业：%3$s，身价为%4$s。</string>
+    <string name="network_request_failed">网络请求失败</string>
+    <string name="network_request_dataException">网络数据异常</string>
+    <string name="network_connection_failed">网络连接失败</string>
+    <!--求方案圈子-->
+    <!-- 首页 -->
+    <string name="RMB">￥%1$s</string>
+    <string name="OldPrice">%1$s</string>
+    <string name="plastic_surgery_simulation">整容模拟</string>
+
+    <!-- 我的 -->
+    <string name="dfhon_account">帐号登录</string>
+    <string name="doctor_check_in">专家/医院入驻</string>
+    <string name="dfhon_username">邮箱/用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="name">姓名</string>
+    <string name="belongs_to_hospital">所在医院</string>
+    <string name="hospital">医院</string>
+    <string name="doctor">医生</string>
+    <string name="phone">手机</string>
+    <string name="email">Email</string>
+    <string name="warm_prompt">温馨提示：提交入驻表后，3个工作日内东方虹客服人员会与您联系。</string>
+    <string name="submit">提交订单</string>
+    <string name="btn_submit">提交</string>
+    <string name="submit_txt">提交评论</string>
+    <string name="login_accout">帐号登录</string>
+    <string name="loading_login">正在登录，请稍后&#8230;</string>
+    <string name="loading_save">正在保存，请稍后&#8230;</string>
+    <string name="loading_submit">正在提交，请稍后&#8230;</string>
+    <string name="empty_username_pwd">用户名或密码不能为空</string>
+    <string name="phone_number">手机号码</string>
+    <string name="verification_code">验证码</string>
+    <string name="phone_login">手机登录</string>
+    <string name="gain_code">获取验证码</string>
+    <string name="gain_code_timer">重新发送(%1$ds)</string>
+    <string name="get_code_timer">%1$d秒后重新获取</string>
+    <string name="please_input">请输入</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="reset_password">重置密码</string>
+    <string name="not_all_the_same">两次密码不一致</string>
+    <string name="no_less_than">密码不少于6位</string>
+    <string name="setting">设置</string>
+    <string name="gender">性别</string>
+    <string name="save">保存</string>
+    <string name="mine_service_review">服务点评</string>
+    <string name="mine_recommended">虹生活</string>
+    <string name="mine_money">虹币</string>
+    <string name="mine_order">我的订单</string>
+    <string name="mine_posts">我的发帖</string>
+    <string name="mine_circle">我的圈子</string>
+    <string name="mine_money_count">我的虹币   %1$s</string>
+    <string name="no_data">没有数据</string>
+    <string name="other">其他</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_cancel">确认取消？</string>
+    <string name="login_weibo">微博</string>
+    <string name="login_QQ">QQ</string>
+    <string name="login_weixin">微信</string>
+    <string name="gain_info_and_login">获取信息并登录中&#8230;</string>
+    <string name="phone_number_invalid">手机号码格式不正确</string>
+    <string name="sharing_your_experience">亲，效果如何呢？体验好不好？来点评一下吧…</string>
+
+    <!-- 贴纸详细页 -->
+    <string name="reply">回复</string>
+    <string name="post_type_random">求方案</string>
+    <string name="loading">正在加载中&#8230;</string>
+    <string name="look_reply_post">查看回帖</string>
+    <string name="gender_male">帅哥在%1$s</string>
+    <string name="gender_female">美女在%1$s</string>
+    <string name="praise_cancel">取消赞</string>
+    <string name="comment_content">回复 </string>
+    <string name="share_new_log">新日志</string>
+    <string name="delete">删除</string>
+    <string name="confirm_delete">确定删除</string>
+    <string name="page_indicator">%1$d/%2$d</string>
+    <string name="liquify_type_small">细</string>
+    <string name="liquify_type_middle">中</string>
+    <string name="liquify_type_big">粗</string>
+    <!-- 圈子 -->
+    <string name="release_to_circle">发布到圈子</string>
+    <string name="sometime_update">%1$s更新</string>
+    <string name="reply_count"><Data><![CDATA[<font color="#a4a4a4">所有答案</font> ( %1$s )]]></Data></string>
+    <string name="comment_count"><Data><![CDATA[<font color="#a4a4a4">所有评论</font> ( %1$s )]]></Data></string>
+    <!-- 发帖 -->
+    <string name="plastic_ps">你要发布到哪个圈子？</string>
+    <string name="release_ps">来，聊点啥&#8230;</string>
+    <string name="release_consult">咨询</string>
+    <string name="release_consult_hint">多问，才能涨姿势</string>
+    <string name="release_share">分享</string>
+    <string name="release_share_tab">漂亮就是任性，晒晒你的整形经历</string>
+    <string name="release_case">案例</string>
+    <string name="release_case_hint">您，早就该名扬四海</string>
+    <string name="release_talk">求方案</string>
+    <string name="release_talk_hint">为你定制个性方案</string>
+    <string name="release_loading">正在提交中，请稍等&#8230;</string>
+    <!--邀请-->
+    <string name="tv_invite_qq">QQ好友</string>
+    <string name="tv_invite_wx">微信好友</string>
+    <string name="tv_invite_wb">新浪微博</string>
+    <string name="tv_other_group">&lt;&#160;换一批&#160;&gt;</string>
+    <string name="tv_my_attention">我的关注</string>
+    <string name="tv_doctor">名医</string>
+    <string name="tv_super">达人</string>
+    <!-- 咨询 -->
+    <string name="question_hint">整形美容经验或疑问，都可以分享哦&#8230;</string>
+    <string name="shuo_hint">请详细描述您的问题，以便专家或他人做出最专业的答复&#8230;</string>
+    <string name="consult_release">发布</string>
+
+    <!-- 补充分享信息 -->
+    <string name="share_modify_info">分享补充信息</string>
+    <string name="share_modify_jump">跳过</string>
+    <string name="share_modify_hospital">手术医院:</string>
+    <string name="share_modify_doctor">整形医生:</string>
+    <string name="share_modify_service">整形项目:</string>
+    <string name="share_modify_price">整形价格</string>
+    <string name="share_modify_confirm">确定</string>
+    <string name="hint_pick">选填</string>
+    <string name="tv_share_notice">填写完整的信息，可以帮助想整形的用户了解更全面的信息</string>
+    <!-- 分享 -->
+    <string name="share_hint">这一刻的美丽心情&#8230;</string>
+    <string name="share_mood">这一刻的美丽心情是什么&#8230;</string>
+    <string name="share_mood_little">你的心情不能少于10个字&#8230;</string>
+    <string name="share_mood_more">你的心情超过1000字&#8230;</string>
+    <string name="share_mine">我的分享</string>
+    <string name="share_mine_release">我要发布新的分享</string>
+    <string name="share_mine_hint">选择已分分享的日志，可以添加日志</string>
+    <!-- 随意说说 -->
+    <string name="shuo_hint_null">这一刻的想法是什么&#8230;</string>
+    <string name="shuo_hint_litter">你的想法不能少于10个字&#8230;</string>
+    <string name="shuo_hint_more">你的想法超过1000个字&#8230;</string>
+    <string name="up_load_pic">请上传图片</string>
+    <string name="tv_add_lable">添加标签</string>
+    <string name="tv_shuo_add_lable">提问领域</string>
+    <string name="tv_seek_lable">求方案</string>
+    <!-- 咨询 -->
+    <string name="consult_null">这一刻的疑惑是什么&#8230;</string>
+    <string name="consult_litter">你的疑惑不能少于10个字&#8230;</string>
+    <string name="consult_more">你的疑惑超过1000个字&#8230;</string>
+    <string name="server_link_exception">与服务链接出现异常！</string>
+    <string name="title_activity_face_lifting_simulate">FaceLiftingSimulateActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="not_concerned">+关注</string>
+    <string name="concerned">已关注</string>
+    <string name="title_activity_face_lifting_model">FaceLiftingModelActivity</string>
+    <string name="processing">正在处理中&#8230;</string>
+    <!-- 聚优惠 -->
+    <string name="servicedetails">服务详情</string>
+    <string name="consultation">在线咨询</string>
+    <string name="immediately_reservation">立即购买</string>
+    <string name="coupon_price">￥%1$s</string>
+    <string name="coupon_zxb">+%1$s虹币</string>
+    <string name="order_time">选择日期</string>
+    <string name="order_linkman">姓名</string>
+    <string name="order_linkphone">手机号</string>
+    <string name="order_special_requirements">订单补充说明</string>
+    <string name="emptyordertime">预约时间不能为空</string>
+    <string name="emptylinkman">联系人不能为空</string>
+    <string name="emptyverifycode">验证码不能为空</string>
+    <string name="emptyverifycodewrong">验证码输入有误</string>
+    <string name="emptylinkphone">联系电话不能为空</string>
+    <string name="format_linkphone">联系电话格式不对</string>
+    <string name="format_address">邮寄地址不能为空</string>
+    <string name="choosedate">请选择日期</string>
+
+    <!-- 聚优惠 -->
+    <string name="coupon_more">查看更多相关社区&#160;&gt;</string>
+    <string name="coupon_more_describe">[%1$s]%2$s</string>
+    <string name="empty_comment_content">评论内容不能为空</string>
+    <string name="empty_comment_star">评论星级不能为空</string>
+    <string name="coupon_order_count"><Data><![CDATA[<font color="#a4a4a4">预约数：</font><font color="#ff507f">%1$s</font>]]></Data></string>
+    <string name="sale_count"><Data><![CDATA[<font color="#a4a4a4">销量：</font><font color="#ff507f">%1$s</font>]]></Data></string>
+    <string name="coupon_originalprice">￥%1$s</string>
+    <string name="coupon_currency_unmeet">账号总虹币：%1$s,暂时不符合预约条件</string>
+
+    <!-- 我 -->
+    <string name="collect_text">我的收藏</string>
+    <string name="mine_message">我的消息</string>
+    <string name="buy_text">购物车</string>
+    <!-- 订单 -->
+    <string name="hospital_text">服务单位：%s</string>
+    <string name="price_pre_related"><Data><![CDATA[￥%1$s]]></Data></string>
+    <!-- 消息提示 -->
+    <string name="setting_message">消息提醒</string>
+    <string name="setting_input_code">填写邀请码</string>
+    <string name="setting_invite">邀请好友</string>
+    <string name="setting_version">版本号</string>
+    <string name="setting_cache">清除缓存</string>
+    <string name="setting_about">关于东方虹</string>
+    <string name="setting_prompt">关闭消息提醒后，评论／回复消息将不能及时得到提醒</string>
+    <string name="edit_code_hint">填写好友邀请码，您和邀请您的好友都将获得300虹币奖励哦，每个用户只能填写一次</string>
+    <string name="invite_prompt"><Data><![CDATA[<font color="#4e4e4e">邀请好友安装App，您和好友都会获得</font><font color="#ff507f">300虹币</font><font color="#4e4e4e">奖励</font>]]></Data></string>
+
+    <!-- 进度条 -->
+    <string name="common_loading">数据加载，请稍候&#8230;</string>
+
+    <!-- 医生 -->
+    <string name="hospital_intro">医院介绍，就医环境，资质认证</string>
+    <string name="hospital_tip_title">东方虹提醒：</string>
+    <string name="hospital_tip">医院信息由医院自行提供，内容的真实性、准确性和合法性由信息发布医院负责。如您发现本医院页面信息涉及虚假宣传内容请立即向东方虹网举报!</string>
+    <string name="hospital_doctor_project">擅长：%1$s</string>
+    <string name="hospital_info">医院信息</string>
+    <string name="hospital_intro2">医院介绍</string>
+    <string name="hospital_address">地址：%1$s</string>
+    <!-- 圈子 -->
+    <string name="circle_admin"><Data><![CDATA[<font color="#fd8aa7">圈主：</font>%1$s]]></Data></string>
+    <string name="circle_top">顶</string>
+    <string name="load_ing">加载中···</string>
+    <string name="loading_more">虹虹正在帮你加载数据&#8230;</string>
+    <string name="load_full">已加载全部</string>
+    <string name="load_empty">暂无数据</string>
+    <string name="isattention">+关注</string>
+
+    <!-- 服务点评 -->
+    <string name="review_servertime"><Data><![CDATA[服务时间：%1$s]]></Data></string>
+    <string name="review_doctorname"><Data><![CDATA[医 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;师：%1$s]]></Data></string>
+    <string name="review_hospital"><Data><![CDATA[服务医院：%1$s]]></Data></string>
+    <string name="review_hospitaladdr"><Data><![CDATA[地 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：%1$s]]></Data></string>
+    <string name="voucher_more">查看详情</string>
+    <string name="edit_voucher_hint">请输入兑换码</string>
+    <string name="btn_voucher">兑换</string>
+    <string name="hot_search">热门搜索</string>
+    <string name="text_voucher"><Data><![CDATA[<font color="#ff3e62">%1$s张可用</font>]]></Data></string>
+    <string name="fee_voucher"><Data><![CDATA[<font color="#ff3e62">已选择(￥%1$s)</font>]]></Data></string>
+    <!-- 自定义对话框 -->
+    <string name="dialog_title_default">提示</string>
+    <string name="btn_sure">确定</string>
+    <string name="btn_cancle">取消</string>
+    <string name="order_success">预约成功</string>
+    <string name="order_success_content">您的%1$s手术已经预约成功，我们的医师会及时和您联系，如有任何问题可在APP内联系客服或者拨打400-0529-789</string>
+    <string name="order_note">注意事项：</string>
+
+    <string name="consult_lebels">请选择发帖的标签</string>
+    <string name="no_network">无法连接到网络，请检查网络！</string>
+    <string name="home_onebuy">一元美购</string>
+    <string name="home_hospital">医院查询</string>
+    <string name="home_doctor">医生查询</string>
+    <string name="home_shop">整形商城</string>
+    <string name="essence_rule_post">精华帖标准</string>
+    <string name="home_science">【科普】%1$s</string>
+    <string name="home_science_head">跟我学整形</string>
+    <string name="home_science_head_more">更多 ></string>
+    <!-- ali im -->
+    <!-- 订单详情 -->
+    <string name="order_detail_remark"><Data><![CDATA[<font color="#ff507f">注：</font><font color="#a4a4a4">请在到院决定消费时出示预约码，为了保证享受到订单中的优惠，请尽快消费</font>]]></Data></string>
+    <string name="order_detail_invitation_code">预约码</string>
+    <!-- 活动 -->
+    <string name="et_person">姓名</string>
+    <string name="et_phone">电话</string>
+    <string name="et_verifyCode">验证码</string>
+    <string name="et_requirements">请描述您想要的整形美容需求</string>
+    <string name="tv_baoming">我要参加</string>
+    <string name="tv_shuo">有话要说</string>
+    <string name="chioces_plastic">请选择不满意的部位</string>
+    <string name="plastic_mood">说说您的报名理由吧，描述越清晰越能拉到支持票哦</string>
+    <string name="plastic_mood_little">你的内容不能少于10个字&#8230;</string>
+    <string name="plastic_name">请填写姓名&#8230;</string>
+    <string name="plastic_phone_null">请填写手机号码&#8230;</string>
+    <string name="plastic_mood_more">你的内容超过1000字&#8230;</string>
+    <string name="activity_join_count">%1$s人支持</string>
+    <string name="activity_join">%1$s票</string>
+    <string name="activity_main_join_count">已报名 : %1$s</string>
+    <string name="activity_main_activity_time">%1$s</string>
+    <string name="activity_joincount"><Data><![CDATA[【&nbsp;<font color="#ff507f">%1$s</font>&nbsp;人报名活动】]]></Data></string>
+    <string name="tv_vote">为TA投票</string>
+    <string name="custom_mood">请详细描述您的问题，以便专家做出最专业的答复</string>
+    <string name="askplastic_vote_tip"><Data><![CDATA[<font color="#a4a4a4">%1$s</font> 的投票码：<font color="#ff507f">%2$s</font>，快为TA投票吧!]]></Data></string>
+    <!-- 下拉刷新 -->
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="pull_last_updated">上次更新</string>
+    <string name="pull_see_more_data">查看更多</string>
+
+    <string name="loading_nodata">抱歉，您搜索的内容暂不存在</string>
+
+    <string name="activity_start_nodata">亲，活动开始啦，快来参与哦！</string>
+    <string name="activity_level_nodata">敬请期待</string>
+
+    <string name="search_mall_hint">搜索你想要的项目</string>
+    <string name="search_home_hint">搜索项目、医生、医院、帖子</string>
+    <string name="mall_order_count"><Data><![CDATA[预约数&nbsp;<font color="#ff507f">%1$s</font>]]></Data></string>
+    <string name="amt_pro_sales_count"><Data><![CDATA[总销量&nbsp;<font color="#ff507f">%1$s</font>]]></Data></string>
+    <string name="mall_comment_all"><Data><![CDATA[<font color="#4e4e4e">综合评价:  </font><font color="#ff507f">%1$s</font>]]></Data></string>
+    <string name="mall_comment_count">一 共%1$s条 一</string>
+    <string name="order_product_lastprice">到院再付：￥%1$s</string>
+    <string name="order_pareprice"><Data><![CDATA[<font color="#4e4e4e">实付：</font><font color="#ff507f">￥%1$s</font>]]></Data></string>
+    <string name="order_product_price"><Data><![CDATA[<font color="#a4a4a4">预付金：</font><font color="#ff507f">￥%1$s</font>]]></Data></string>
+    <string name="order_pay_deposit">-￥%1$s</string>
+
+    <string name="confirm_cancel_circle">确认不在关注此圈子？</string>
+    <string name="confirm_cancel_user">确认不在关注此用户？</string>
+
+
+    <!-- 版本升级 -->
+
+    <!--1圆美购-->
+    <string name="onebuy_unlogin"><Data><![CDATA[<font color="#ff507f">立即登录</font> &nbsp;&nbsp;收获 &nbsp;惊喜！]]></Data></string>
+    <string name="onebuy_login_unbuy">您没有参与本期的美购哦</string>
+    <string name="onebuy_join_count"><Data><![CDATA[本期参与&nbsp;<font color="#ff507f">%1$s</font>&nbsp;份]]></Data></string>
+    <string name="onebuy_show_num">查看美购号</string>
+    <string name="onebuy_calculate_rule">计算规则</string>
+    <string name="onebuy_involved_join_count"><Data><![CDATA[<font color="#ff507f">%1$s</font>&nbsp;次]]></Data></string>
+    <string name="onebuy_pay_price">共 %1$s 元</string>
+    <string name="onebuy_close_join_count"><Data><![CDATA[本期参与&nbsp;<font color="#ff507f">%1$s</font>&nbsp;人次]]></Data></string>
+    <string name="onebuy_buy_tip"><Data><![CDATA[购买须知：<br/>当本期次剩余&lt;您的参与金额，将部分购买成功，未购买成功金额存入您的账户；]]></Data></string>
+
+    <string name="onebuy_account_balance"><Data><![CDATA[账户余额：&nbsp;<font color="#ff507f">%1$s</font>&nbsp;元]]></Data></string>
+    <string name="support_count"><Data><![CDATA[<font color="#ff507f">%1$s:</font> %2$s]]></Data></string>
+    <string name="comment_s"><Data><![CDATA[<font color="#ff507f">%1$s:</font> %2$s]]></Data></string>
+    <!-- 下拉刷新，上拉加载更多 -->
+    <string name="xlistview_header_hint_normal">下拉刷新&#8230;</string>
+    <string name="xlistview_header_hint_ready">松开加载&#8230;</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开加载&#8230;</string>
+    <string name="amt_total_amount"><Data><![CDATA[总计：&nbsp;<font color="#ff507f">￥%1$s </font>]]></Data></string>
+    <string name="amt_refund_total_amount"><Data><![CDATA[(最多可申请退款金额%1$s元)]]></Data></string>
+    <string name="amt_refund_total"><Data><![CDATA[退款总金额：&nbsp;<font color="#ff507f">￥%1$s </font>]]></Data></string>
+    <string name="pull_down_last_time">最近更新：%1$s</string>
+    <!--pickerwheel-->
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+
+    <string name="pull_to_refresh_pull_label" translatable="false">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中&#8230;</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+
+    <string name="photo_album_loading">相册加载中&#8230;</string>
+    <string name="return_back">返回</string>
+    <string name="choose_finish">完成</string>
+    <string name="choose_album">请选择相册</string>
+    <string name="tv_sure">确定</string>
+    <string name="tv_cancel">取消</string>
+    <string name="crop">裁剪</string>
+    <string name="sticker">贴纸</string>
+
+    <string name="freedom">自由</string>
+    <string name="rest">还原</string>
+    <string name="finish">完成</string>
+    <string name="clear">清空</string>
+    <string name="new_post">发新帖</string>
+
+    <!--视频-->
+    <string name="video_album_loading">视频文件夹加载中&#8230;</string>
+    <string name="choose_video_album">请选择视频文件夹</string>
+
+
+</resources>

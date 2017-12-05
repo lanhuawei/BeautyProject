@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/frameLayout"
+             android:layout_width="65dp"
+             android:layout_height="65dp">
+
+    <!--显示裁剪和贴纸的预览图     PhotoPreViewAdapter-->
+
+    <ImageView
+        android:id="@+id/iv_isSelect"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_re_bg_white_bode2_red"/>
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:background="@mipmap/normal_preview_icon" />
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/iv_delete"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="end|top"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginTop="-5dp"
+        android:src="@mipmap/core_dele_icon"
+        />
+</FrameLayout>

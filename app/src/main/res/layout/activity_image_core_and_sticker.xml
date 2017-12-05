@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_black">
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="10dp"
+            android:drawableLeft="@mipmap/back"
+            android:text="@string/tv_cancel"
+            android:textColor="@color/bg_white"
+            android:gravity="center"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:paddingEnd="10dp"
+            android:text="@string/tv_sure"
+            android:textColor="@color/bg_white"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_bottom"
+        android:layout_below="@+id/rl_title"
+        android:layout_centerInParent="true"
+        android:background="@color/color_333333"
+        android:gravity="center">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/rl_title"
+        android:background="@color/color_66000000">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_imageList"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_black"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_crop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="4dp"
+            android:drawableTop="@mipmap/crop_icon"
+            android:gravity="center"
+            android:text="@string/crop"
+            android:textColor="@color/bg_white"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_sticker"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="4dp"
+            android:drawableTop="@mipmap/sticker_icon"
+            android:gravity="center"
+            android:text="@string/sticker"
+            android:textSize="12sp"
+            android:textColor="@color/bg_white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

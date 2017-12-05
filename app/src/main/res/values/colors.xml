@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff507f</color>
+    <color name="colorPrimaryDark">#ff507f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="bg_background">#ffffff</color>
+    <!-- 页面布局公共背景颜色 -->
+    <!-- 标题的公共背景颜色 -->
+    <color name="bg_btn">#f94777</color>
+    <color name="bg_btn_press">#e03765</color>
+    <color name="main_pink">#ff507f</color>
+    <color name="main_pink_alpha_90">#90ff618c</color>
+    <color name="text_white">#ffffff</color>
+    <color name="default_pic">#f9f9f9</color>
+
+    <!-- 背景 -->
+    <color name="bg_white">#ffffff</color>
+    <!--50度灰色遮罩-->
+    <color name="bg_white_alpha_50">#95ffffff</color>
+    <color name="bg_black">#000000</color>
+    <color name="bg_light_gray">#F6F6F6</color>
+    <!--新背景底色-->
+    <!--<color name="bg_light_gray">#ECEDEE</color>原背景底色-->
+    <!-- 浅灰色：布局背景 -->
+    <color name="bg_dark_gray">#cccccc</color>
+    <!-- 深灰色 -->
+    <!-- 浅粉红色：布局背景 -->
+    <!-- 粉红色：布局背景 -->
+    <color name="bg_pinky">#f94777</color>
+    <!-- 粉红色:标题背景 -->
+
+    <!-- 字体 -->
+    <color name="text_light_black">#353535</color>
+    <!-- 浅黑色 主标题 -->
+    <color name="text_dark_gray">#666666</color>
+    <!-- 暗灰色 内容 -->
+    <color name="text_light_gray">#999999</color>
+    <!-- 浅灰色  副标题，评论数 -->
+    <!-- 暗黄色：详细页标题 -->
+    <color name="text_red">#de1010</color>
+    <!-- 红色：详细页标题 -->
+    <!-- 蓝色 -->
+    <color name="text_light_pinky">#eb6996</color>
+    <color name="text_pinky">#f94777</color>
+    <color name="text_light_red">#ff0038</color>
+
+    <!-- 线条 -->
+    <!-- 粉红色 -->
+    <color name="line_gray">#e1e1e1</color>
+    <!-- 淡灰色 -->
+    <color name="line_light_gray">#ECEDEE</color>
+    <!-- 淡灰色 -->
+    <color name="line_red">#ff0033</color>
+    <!-- 红色 -->
+
+    <!-- 按钮 -->
+    <!-- 粉红色按钮 -->
+    <!-- 粉红色按钮点击效果 -->
+    <color name="btn_light_yellow">#ffb412</color>
+    <!-- 浅黄色按钮 -->
+    <color name="btn__yellow">#ff6600</color>
+    <!-- 橘黄色按钮 -->
+
+    <!-- 底部导航栏 -->
+    <color name="tab_background">#fbfbfb</color>
+    <color name="tab_textcolor_press">#eb6996</color>
+    <color name="tab_background_press">#000000</color>
+
+    <!--  -->
+    <color name="crop_image_text">#252525</color>
+    <color name="crop_image_text_press">#131210</color>
+    <color name="light_black">#666666</color>
+    <color name="light_gray">#999999</color>
+
+    <!-- 新版我 -->
+    <color name="mine_bg">#ECEDEE</color>
+    <color name="order_content_text">#3B3C3D</color>
+
+    <!-- 医生 -->
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_f94774">#f94774</color>
+
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_333333">#333333</color>
+    <color name="listview_footer_listitem">#373737</color>
+    <color name="search_bg">#f1f1f1</color>
+    <color name="search_from">#fd8da7</color>
+    <!-- Toast -->
+    <color name="toast_bg">#9930302e</color>
+
+    <!-- 首页正方形蓝色,80%透明度 -->
+    <!-- 首页正方形蓝色，按下态， 80%透明度 -->
+    <!-- 黄色按钮，100%透明度 -->
+    <!-- 黄色按钮，按下态，100%透明度 -->
+    <color name="color_888888">#888888</color>
+    <!-- 报名帖头部背景 -->
+    <color name="light_gray_background">#50000000</color>
+    <color name="color_ffffff">#FFFFFF</color>
+    <!-- 报名贴头部颜色 -->
+    <color name="color_f94777">#f94777</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="color_9b9b9b">#9b9b9b</color>
+    <color name="color_ff85a4">#FF85a4</color>
+    <color name="color_bababa">#bababa</color>
+    <color name="color_fe537f">#fe537f</color>
+    <!--滑动切换tab背景-->
+    <color name="nullable">#00000000</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+    <color name="btn_orange">#f9bc6d</color>
+    <color name="btn_orange_90">#90f9bc6d</color>
+    <color name="btn_pink">#fb7aa0</color>
+    <color name="btn_pink_90">#90fb7aa0</color>
+    <color name="text_black">#333333</color>
+    <color name="color_ff6985">#ff6985</color>
+    <color name="color_ffdfe8">#ffdfe8</color>
+    <!-- 半透明#e0000000 -->
+    <color name="color_e0000000">#e0000000</color>
+
+    <color name="color_ff507f">#ff507f</color>
+    <color name="color_4e4e4e">#4e4e4e</color>
+    <color name="color_eeeaea">#eeeaea</color>
+    <color name="color_a4a4a4">#a4a4a4</color>
+    <!--分割段 -->
+    <color name="color_f4f4f4">#f4f4f4</color>
+    <!--分割线 -->
+    <color name="color_ebebeb">#ebebeb</color>
+    <color name="color_ececec">#ececec</color>
+    <!--edit   hint是bdbdbd-->
+    <color name="color_bdbdbd">#bdbdbd</color>
+    <color name="color_ff2d66">#ff2d66</color>
+    <color name="color_ffdae4">#ffdae4</color>
+    <color name="color_ff618c">#ff618c</color>
+    <color name="color_e5577e">#e5577e</color>
+    <color name="color_fcf2f3">#fcf2f3</color>
+    <color name="color_ffeee9">#ffeee9</color>
+    <color name="color_c5c5c5">#c5c5c5</color>
+    <color name="btn_black_90">#90000000</color>
+    <color name="color_609bd2">#609bd2</color>
+    <color name="color_4d3c17">#4d3c17</color>
+    <color name="color_0099cc">#ff0099cc</color>
+    <color name="color_4c4c4c">#4c4c4c</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_8ad4ff">#8ad4ff</color>
+    <color name="color_c1c1c1">#c1c1c1</color>
+    <color name="color_2ba9ff">#2ba9ff</color>
+    <color name="color_ff7da0">#ff7da0</color>
+    <color name="color_bcbcbc">#bcbcbc</color>
+    <color name="color_f6f6f6">#f6f6f6</color>
+    <color name="color_50000000">#50000000</color>
+    <!--pickerwheel颜色-->
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--必填星星颜色-->
+    <color name="star_color">#e94643</color>
+    <!--Crop-->
+    <color name="white_translucent">#AAFFFFFF</color>
+    <color name="black_translucent">#B0000000</color>
+
+    <color name="border">@color/white_translucent</color>
+    <color name="guideline">@color/white_translucent</color>
+    <color name="corner">@android:color/white</color>
+    <color name="surrounding_area">@color/black_translucent</color>
+
+    <!--对话框background-->
+    <color name="color_80000000">#80000000</color>
+    <color name="color_66000000">#66000000</color>
+    <color name="color_ee000000">#ee000000</color>
+    
+</resources>
