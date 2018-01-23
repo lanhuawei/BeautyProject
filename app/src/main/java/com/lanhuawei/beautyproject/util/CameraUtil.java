@@ -54,6 +54,8 @@ public class CameraUtil {
         createDir(cameraDir);
         intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(new File(cameraDir, fileName.toString())));
         return intent;
+
+
     }
 
     /**
